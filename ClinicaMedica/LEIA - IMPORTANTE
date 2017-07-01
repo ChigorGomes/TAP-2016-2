@@ -1,0 +1,8 @@
+LEIA - IMPORTANTE
+
+Para que o projeto fosse enviado, foram excluidas duas pastas do projeto:
+./app/build
+./build
+
+Quando abrir o android Studio vai parecer vários erro, ignore-os!
+Não tem problema quando exportar para o android Studio, basta compilar que a pasta voltará a existir.
