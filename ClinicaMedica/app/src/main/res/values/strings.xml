@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">ClinicaMedica</string>
+    <string name="medico">Médico</string>
+    <string name="atendente">Atendente</string>
+    <string name="adm">Administrador</string>
+    <string name="login">Login</string>
+    <string name="acesso">Acessar</string>
+    <string name="senha">Senha</string>
+    <string name="dados">Cadastro/Editar</string>
+    <string name="agenda">Agenda</string>
+    <string name="usu">Usuário</string>
+    <string name="consulta">consulta</string>
+    <string name="medica">Médica</string>
+    <string name="sair">Sair</string>
+    <string name="nome">Nome</string>
+    <string name="cadastro">Cadastrar</string>
+    <string name="alterar">Alterar</string>
+    <string name="excluir">Excluir</string>
+    <string name="buscar">Buscar</string>
+    <string name="tipoUsuario">Tipo de usuário:</string>
+    <string name="crm">CRM</string>
+    <string name="nascimento">Nascimento</string>
+    <string name="telefone">Telefone</string>
+    <string name="especialidade">Especialidade</string>
+    <string name="editar">Editar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="horario">Horário</string>
+    <string name="data">Data</string>
+    <string name="obs">Obs</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="status">Status</string>
+    <string-array name="tipoUsuario">
+        <item>Medico</item>
+        <item>Atendente</item>
+        <item>Administrador</item>
+    </string-array>
+
+    <string-array name="EspecidalidadeMedica">
+        <item>Acupuntura</item>
+        <item>Anestesiologia</item>
+        <item>Angiologia</item>
+        <item>Cancerologia (oncologia)</item>
+        <item>Cardiologia</item>
+        <item>Cirurgia Cardiovascular</item>
+        <item>Cirurgia da Mão</item>
+        <item>Cirurgia do Aparelho Digestivo</item>
+        <item>Cirurgia Geral</item>
+        <item>Cirurgia Pediátrica</item>
+        <item>Cirurgia Plásticas</item>
+        <item>Cirurgia Torácica</item>
+        <item>Cirurgia Vascular</item>
+        <item>Clínica Médica (Medicina interna)</item>
+        <item>Coloproctologia</item>
+        <item>Dermatologia</item>
+        <item>Endocrinologia e Metabologia</item>
+        <item>Endoscopia</item>
+    </string-array>
+    <string name="paciente">Paciente</string>
+
+
+</resources>

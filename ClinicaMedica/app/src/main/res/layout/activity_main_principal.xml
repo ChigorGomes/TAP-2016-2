@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.edu.clinicamedica.clinicamedica.MainActivityPrincipal">
+
+    <Button
+        android:text="@string/medico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/buttonCadastraMedico"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:text="@string/medico"
+        android:onClick="acessaCadastraMedico" />
+
+    <Button
+        android:text="@string/paciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCadastraAtendente"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_alignBaseline="@+id/buttonCadastraMedico"
+        android:layout_alignBottom="@+id/buttonCadastraMedico"
+        android:layout_toRightOf="@+id/buttonCadastraMedico"
+        android:layout_toEndOf="@+id/buttonCadastraMedico"
+        tools:text="@string/paciente"
+        android:onClick="acessaCadastraPaciente" />
+
+    <Button
+        android:text="@string/usu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/buttonCadastraUsuario"
+        android:layout_below="@+id/buttonCadastraMedico"
+        android:layout_alignLeft="@+id/buttonCadastraMedico"
+        android:layout_alignStart="@+id/buttonCadastraMedico"
+        tools:text="@string/usu"
+        android:onClick="acessaCadastraUsuario" />
+
+    <Button
+        android:text="@string/consulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCadastraConsulta"
+        android:layout_alignBaseline="@+id/buttonCadastraUsuario"
+        android:layout_alignBottom="@+id/buttonCadastraUsuario"
+        android:layout_alignLeft="@+id/buttonCadastraAtendente"
+        android:layout_alignStart="@+id/buttonCadastraAtendente"
+        tools:text="@string/consulta"
+        android:onClick="acessaCadastraConsulta" />
+
+    <TextView
+        android:text="@string/dados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView"
+        tools:text="@string/dados"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/buttonCadastraAtendente"
+        android:layout_alignEnd="@+id/buttonCadastraAtendente"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp" />
+
+    <TextView
+        android:text="@string/agenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        tools:text="@string/agenda"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/medica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonAgendaMedica"
+        android:textSize="18sp"
+        tools:text="@string/medica"
+        android:onClick="acessaConsultas"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+</RelativeLayout>
