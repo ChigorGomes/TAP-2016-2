@@ -1,0 +1,5 @@
+usuarios: Medico,administrador,atendente
+senha: 123
+
+Nome Banco de Dados:backup bd-clinica_medica.sql
+
